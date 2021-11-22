@@ -41,7 +41,11 @@ public class Calculator {
 		
 		Calculator cal = new Calculator(first, second);
 		
-		String output = String.format("\n*** Your  Results ***\n\nFirst: %d\nSecond: %d\n\nSum : %d\nDifference : %d\nProduct : %d\n\n", cal.first, cal.second, cal.addFucn(first, second), cal.subFucn(first, second), cal.mulFucn(first, second));
+<<<<<<< HEAD
+		String output = String.format("\n*** My Results ***\n\nFirst: %d\nSecond: %d\n\nSum : %d\nDifference : %d\nProduct : %d\n\n", cal.first, cal.second, cal.addFucn(first, second), cal.subFucn(first, second), cal.mulFucn(first, second));
+=======
+		String output = String.format("\n*** My Results ***\n\nFirst: %d\nSecond: %d\n\nSum : %d\nDifference : %d\nProduct : %d\n\n", cal.first, cal.second, cal.addFucn(first, second), cal.subFucn(first, second), cal.mulFucn(first, second));
+>>>>>>> b1a905be2d9a44bc32f3da2cbbd19f3773771888
 	    System.out.println(output);
 	}
 	
